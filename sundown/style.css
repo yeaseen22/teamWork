@@ -189,3 +189,20 @@ nav h3 {
         transform: translate(-20%, 30%);
     }
 }
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+}
+
+#moving-text h1{
+    font-size: 6vw;
+}
+
+#circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #FE320A;
+}
