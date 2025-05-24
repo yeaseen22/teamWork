@@ -1,169 +1,73 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #fff, #f5f0ff);
-    padding: 1.5rem;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #ffffff, #f5f0ff);
+  padding: 1.5rem;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 3rem;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  width: 100%;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo-dots {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2px;
-    margin-right: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2;
+  margin-right: 10px;
 }
 
 .dot {
-    width: 8px;
-    height: 8px;
-    background-color: #5a45ff;
-    border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: #5a45ff;
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .logo-text-dark {
-    color: #1a1a2e;
+  color: #1a1a2e;
 }
 
 .logo-text-colored {
-    color: #5a45ff;
+  color: #5a45ff;
 }
 
 .clone-btn {
-    background-color: #5a45ff;
-    color: white;
-    border: none;
-    border-radius: 9999px;
-    padding: 0.75rem 1.5rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #5a45ff;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.clone-btn:hover {
-    background-color: #5a45ff;
+.clone-btn:hover{
+  background-color: #4a35ef;
 }
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-
-.subtitle {
-    color: #5a45ff;
-    font-weight: 500;
-    letter-spacing: 1px;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-}
-
-.title {
-    font-size: 2.25rem;
-    font-weight: 700;
-    color: #1a1a2e;
-    margin-bottom: 1.5rem;
-    line-height: 1.2;
-}
-
-.description {
-    color: #666;
-    font-size: 1.125rem;
-    margin-bottom: 2.5rem;
-    max-width: 800px;
-    line-height: 1.6;
-}
-
-  /* Form styles */
-    .form-container {
-      width: 100%;
-      max-width: 600px;
-      margin-bottom: 2rem;
-    }
-
-    .email-form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      width: 100%;
-    }
-
-    .email-input {
-      flex-grow: 1;
-      padding: 1rem 1.5rem;
-      border-radius: 9999px;
-      border: 1px solid #e0e0e0;
-      font-size: 1rem;
-      outline: none;
-    }
-
-    .email-input:focus {
-      border-color: #5a45ff;
-    }
-
-    .subscribe-btn {
-      background-color: #5a45ff;
-      color: white;
-      border: none;
-      border-radius: 9999px;
-      padding: 1rem 1.5rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-
-    .subscribe-btn:hover {
-      background-color: #4a35ef;
-    }
-
-    /* Disclaimer styles */
-    .disclaimer {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      color: #666;
-    }
-
-    .check-circle {
-      width: 24px;
-      height: 24px;
-      background-color: #5a45ff;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .check-icon {
-      color: white;
-      font-size: 0.875rem;
-    }
-
