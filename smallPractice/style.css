@@ -30,6 +30,62 @@ header {
   align-items: center;
 }
 
+.clone-btn {
+  background-color: #5a45ff;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clone-btn:hover {
+  background-color: #4a35ef;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+li{
+  margin: 10px 10px;
+  background: #5a45ff;
+  list-style: none;
+  color: white;
+}
+
+
+
+/* 
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #ffffff, #f5f0ff);
+  padding: 1.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo-dots {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -70,4 +126,4 @@ header {
 
 .clone-btn:hover{
   background-color: #4a35ef;
-}
+} */
