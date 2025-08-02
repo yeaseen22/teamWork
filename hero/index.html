@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .hero {
+            height: 100vh;
+            background-image: url('https://images.unsplash.com/photo-1749741296695-33ff785c2b93?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-content button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            background: #fff;
+            color: #000;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style> -->
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .hero {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            background-image: url('https://images.unsplash.com/photo-1749741296695-33ff785c2b93?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8');
+            background-size: cover;
+            background-position: center;
+            filter: blur(8px);
+            overflow: hidden;
+        }
+
+        /* Add color overlay on left 20% */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            /* solid color */
+            z-index: 0;
+        }
+
+        /* Bring readable content on top */
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            transform: translateY(-50%);
+            color: white;
+            z-index: 999;
+            max-width: 600px;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-content button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            background: #fff;
+            color: #000;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <section class="hero">
+
+
+
+        <div class="hero-content">
+            <h1>Explore the World</h1>
+            <p>Your adventure starts here</p>
+            <button>Get Started</button>
+        </div>
+    </section> -->
+
+    <div class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Blurred Hero Image</h1>
+            <p>Only 80% shows the image, 20% is a solid color.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
